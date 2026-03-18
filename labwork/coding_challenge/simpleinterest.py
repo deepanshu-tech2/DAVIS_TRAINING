@@ -1,5 +1,14 @@
-priciple = int(input("enter the principle amount"))
-rate  = int(input("enter the rate in %"))
-time = int(input("enter the time in year=>"))
-simple_interest = (priciple*time*rate)/100
-print("total interest is => ",simple_interest)
+def calculate_simple_interest(principal, rate, time):
+    simple_interest = (principal * rate * time) / 100
+    return simple_interest
+
+
+# Taking input
+principal = int(input("Enter the principal amount: "))
+rate = int(input("Enter the rate (%): "))
+time = int(input("Enter the time (years): "))
+
+# Function call
+result = calculate_simple_interest(principal, rate, time)
+
+print("Total interest is =>", result)
