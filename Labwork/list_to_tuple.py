@@ -1,0 +1,3 @@
+lis = [1,2,4,5,3,4,1,2,4,5,6,2,1,4,2]
+result = tuple(set(lis))
+print(result)
