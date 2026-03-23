@@ -1,10 +1,7 @@
-lst = [1, 2, 3, 2, 4, 1, 5]
-
+list = [1,2,4,3,4,5,7,8,3,4,1,1,2,3,4]
 result = []
-
-for i in lst:
-    if lst.count(i) == 1:
+for i in list:
+    if i not in result:
         result.append(i)
 
-print("Original list:", lst)
-print("After removing all duplicates:", result)
+print("after removing the duplicate element =>", result)

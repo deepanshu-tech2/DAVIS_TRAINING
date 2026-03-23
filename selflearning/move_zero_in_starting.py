@@ -8,5 +8,3 @@ def move_zero_in_start(arr):
 
 arr= [1,2,0,1,2,4,0,0,0,0,0,1,1,1,1,0,0,0]
 print("move zero in starting ",move_zero_in_start(arr))
-
-        
