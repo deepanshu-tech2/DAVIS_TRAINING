@@ -1,2 +1,3 @@
-for i in range(1,6):
-  print((5-i)*" ","*"*i)
+x = int(input("enter the number of rows "))
+for i in range(1,x):
+  print((x-i)*" ","*"*i)
